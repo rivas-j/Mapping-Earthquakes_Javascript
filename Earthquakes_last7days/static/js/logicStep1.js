@@ -36,15 +36,6 @@ L.control.layers(baseMaps).addTo(map);
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
 
-// Accessing the airport GeoJSON URL
-let torontoHoods = "https://raw.githubusercontent.com/rivas-j/mapping_earthquakes/main/torontoNeighborhoods.json";
-
-// Create a style for the lines.
-let myStyle = {
-  color: "#ffffa1",
-  weight: 2
-}
-
 // Grabbing our GeoJSON data.
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data) {
   console.log(data);
