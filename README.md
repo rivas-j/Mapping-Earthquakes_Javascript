@@ -4,7 +4,7 @@
     <img src=images/richter.webp>
 </div>
 
-## <div align="center">Use Javascript to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days.</div>
+## <div align="center">Use Javascript to visualize differences in global earthquake magnitude in the previous week</div>
 
 <p align="center">
 <a href="#goals">Goals</a> &nbsp;&bull;&nbsp;
